@@ -8,6 +8,7 @@ import cn from "classnames";
 import { useRouter } from "next/router";
 
 export default function Header() {
+  // helper function
   function logic(route) {
     if (route === "/") {
       if (window.scrollY > 2) {
